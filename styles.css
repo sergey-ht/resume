@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+body{
+    font-size: 18px;
+    font-family: 'IBM+Plex+Sans:wght@500', sans-serif;
+    font-weight: normal;          
+    background-color: cadetblue;
+    padding: 8px;   
+}
+a:hover{
+color: coral;
+text-decoration: underline;
+}
+a:visited{
+    color: rgb(211, 211, 230);    
+}
+a:active{
+    color: rgb(137, 251, 22);
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 25px;    
+}
+.avatar{
+    width: 260px;
+    border-radius: 10px;    
+}
+.container h4{
+    margin-bottom: 10px;
+    font-style: italic;    
+}
+.container h1{
+    margin-bottom: 10px;
+    font-style: italic;    
+}
+.card-1{
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(245, 178, 154);
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.card-2{
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(157, 231, 183);
+    padding: 15px 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;  
+}
+.card-3{
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(207, 107, 139);
+    padding: 15px 30px;
+    margin-bottom: 10px;  
+}
+.card-4{
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(206, 156, 231);
+    padding: 15px 30px;
+}
+ 
+.btn{
+  background: rgb(82, 74, 74);
+  padding: 10px 22px;
+  color: #fff; 
+  cursor: pointer; 
+  border-radius: 5px;
+  font-family: inherit;
+}
+.btn:hover{
+    opacity: 1;
+    color: red;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+.list li{
+    margin-bottom: 7px;    
+}
+
+.link-list{
+    padding: 15px;
+} 
+
+.link-list li{
+    margin: 7px;
+    border-bottom: 1px solid rgb(29, 26, 26);
+    padding-bottom: 3px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table tr td{
+    text-align: left;
+    padding-bottom: 3px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color: rgb(63, 51, 51);
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row{
+    margin-bottom: 12px;
+    display: flex;    
+}
+
+.form-row .form-group {
+    margin-right: 15px;
+    width: 50%;    
+    /* display: inline-block; */
+    /* width: calc (50% - 20px); */
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 650px){
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    } 
+}
+
+.form-group label{
+    display: flex;
+    font-size: 14px; 
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(44, 42, 42);
+    color: rgb(15, 14, 14);
+    padding: 10px 0 10px;
+    outline: none;
+    font-family: inherit;
+    font-size: 18px;     
+}
+
+.form-group textarea{
+    padding-top: 0px;
+}
+
+

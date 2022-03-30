@@ -4,93 +4,118 @@
     <meta charset="UTF-8">
     <meta name="description" content="Это сайт - резюме Сергея Матулиса">
     <meta name="keywords" content="sergey, cv, resume">
-        <title>Sergey Resume</title>
+    <link rel="stylesheet" href="styles.css">
+        <title>Sergey Resume</title>        
 </head>
 <body>
-    <img src="Моё фото 1.png" width="230" alt="Моя фотография">
-    <h1>Матулис Сергей</h1>
-    
-    <p>Я работаю бухгалтером в  <strong>ООО "Компания Эндвест"</strong>. <br>        Я очень 
-        мечтаю поменять работу и <strong>  <em>     войти в IT</em> </strong>.
-         
-        </p>
+    <div class="container">
+        <img src="Моё фото 1.png" alt="Моя фотография" class="avatar">
+        <h1>Матулис Сергей</h1>
         
-        <h4>Список социальных сетей:</h4>
-        <a href="https://Telegram.org" target="_blank">Telegram</a> 
-        |
-        <a href="https://vk.com" target="_blank">VKontakte</a>
-        |
-        <a href="https://ok.ru" target="_blank">Одноклассники</a> 
-        <h2> Мои хобби </h2>
-        <ol type="circle">
-            <li>Спорт:
-                <ul>
-                    <li>Футбол</li>
-                    <li>Биатлон</li>
-                    <li>Горные и беговые лыжи</li>
-                </ul>            
-            </li>
-            <li>Боулинг</li>            
-            <li>Прогулки с семьёй</li>
-            <li>Путешествия</li>
-        </ol>
-        <h2>Опыт работы</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-               <tr>
-                <td>OOO"Эндвест трэйд"</td>
-                <td>Бухгалтер</td>
-                <td>2000-2004</td> 
-               </tr> 
-            </tbody>
-            <tbody>
-                <tr> 
-                <td>OДO"Вкусный хлеб"</td>
-                <td>Бухгалтер</td>
-                <td>2004-2009</td>
-            </tr>
-            </tbody>
-            <tbody>
-               <tr>
-                <td>OOO"Компания Эндвест"</td>
-                <td>Зам.гл.бухгалтера</td>
-                <td>2009-сейчас</td> 
-               </tr> 
-            </tbody>
-        </table> 
-
-       <h2>Связаться со мной</h2>
-       <form>
-           <div>
-               <label for="name"> <strong>Ваше имя:</strong> </label>
-               <input type="text" id="name" placeholder="Введите имя">
+        <p>Я работаю бухгалтером в  <strong>ООО "Компания Эндвест"</strong>. <br> Появился интерес к программированию. <br> Я очень 
+            мечтаю поменять работу и <strong>  <em>     войти в IT</em> </strong>.             
+        </p>
+            
+            <h4>Список социальных сетей:</h4>
+            <a href="https://t.me/+375297782533" target="_blank">Telegram</a> 
+            |
+            <a href="https://vk.com" target="_blank">VKontakte</a>
+            |
+            <a href="https://ok.ru" target="_blank">Одноклассники</a> 
+            
+            <div class="card-1">
+                <h2> Мои хобби </h2>
+                <ol class="list" type="circle">
+                    <li>Спорт:
+                        <ul>
+                            <li>Футбол</li>
+                            <li>Биатлон</li>
+                            <li>Горные и беговые лыжи</li>
+                        </ul>            
+                    </li>
+                    <li>Боулинг</li>            
+                    <li>Прогулки с семьёй</li>
+                    <li>Путешествия</li>
+                </ol>    
             </div>
-        </form>
-
-        <form>
-            <div>
-            <label for="email"> <strong>Ваш email:</strong> </label>
-            <input type="email" id="email" placeholder="Введите email">
+            
+            <div class="card-2">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <!-- <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead> -->
+                    <tbody></tbody>
+                       <tr>
+                        <td>OOO"Эндвест трэйд"</td>
+                        <td>Бухгалтер</td>
+                        <td>2000-2004</td> 
+                       </tr> 
+                    </tbody>
+                    <tbody>
+                      <tr>                     
+                        <td>OДO"Вкусный хлеб"</td>
+                        <td>Бухгалтер</td>
+                        <td>2004-2009</td>
+                      </tr>
+                    </tbody>
+                    <tbody>
+                       <tr>
+                        <td>OOO"Компания Эндвест"</td>
+                        <td>Зам.гл.бухгалтера</td>
+                        <td>2009-сейчас</td> 
+                       </tr> 
+                    </tbody>
+                </table>  
             </div>
-         </form>
-
-         <form>
-            <div>
-            <label for="message"> <strong>Ваше сообщение:</strong> </label>
-            <br>
-            <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..."></textarea>
+    
+            <div class="card-3">
+                <h2> Мои курсы </h2>
+                <ul class="link-list" type="disc">
+                    <li>HTML & CSS Course by Vladilen Minin</li>                      
+                    <li>English</li>               
+                </ul>    
             </div>
-         </form>
+    
+            <div class="card-4">
 
-         <form>
-            <button type="submit"> <strong>Отправить!</strong> </button>           
-         </form>
+                <form action="/" class="form">
+                    <h2>Связаться со мной</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name"> <strong>Ваше имя:</strong> </label>
+                            <input type="text" id="name" placeholder="Введите имя">
+                         </div>
+                     
+             
+                     
+                         <div class="form-group" >           
+                             <label for="email"> <strong>Ваш email:</strong> </label>            
+                             <input type="email" id="email" placeholder="Введите email">
+                         </div>
+                    </div>                  
+         
+                  
+                     <div class="form-group">
+                        <label for="message"> <strong>Ваше сообщение:</strong> </label>
+                        <br>
+                        <textarea id="message" cols="30" rows="7" placeholder="Введите сообщение..."></textarea>
+                     </div>                 
+         
+                              
+                     <button class="btn" type="submit"> <strong>Отправить!</strong> </button>           
+                  </form>   
+            </div>   
+    </div>
+           
+              
+    
+           
+
+       
 </body>
 </html>
